@@ -481,15 +481,13 @@ margin-bottom: 16px;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+.close-btn:focus,
 .close-btn:hover,
-.close-btn:focus {
+.close-btn:hover .icon-close, 
+.close-btn:focus .icon-close {
     background-color: #404bbf;
     border: none;
-}
-.icon-close:hover,
-.icon-close:focus {
     fill: #ffffff;
-    border: none;
 }
 .title-modal {
     font-weight: 500;
@@ -546,7 +544,7 @@ margin-bottom: 16px;
 .form-conteiner {
     margin-bottom: 8px;
 }
-.form-conteiner-1 {
+.form-comment {
     margin-bottom: 16px;
 }
 .input-modal {
