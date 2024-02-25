@@ -443,8 +443,8 @@ margin-bottom: 16px;
 }
 .backdrop.is-open {
     opacity: 1;
-    pointer-events: none;
-    visibility: hidden;
+    pointer-events: auto;
+    visibility: visible;
 
 }
 .modal {
