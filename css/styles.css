@@ -617,12 +617,12 @@ margin-bottom: 16px;
     background: var(--coolor-active);
 }
 .input-check {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 .icon-check {
-    position: absolute;
-    display: block;
+    /* position: absolute;
+    display: block; */
     fill: var(--color-icon);
 }
 .check {
